@@ -1,0 +1,1 @@
+console.log("Amazone Clone loaded");
