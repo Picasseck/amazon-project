@@ -5,3 +5,27 @@ header {
 .main {
   padding: 16px;
 }
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header { padding: 12px; }
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-search { flex: 1; display: flex; gap: 8px; }
+
+.nav-search__input { flex: 1; padding: 8px; }
+.nav-search__button { padding: 8px 12px; cursor: pointer; }
+
+.nav-links { display: flex; gap: 12px; }
+
+.nav-link { text-decoration: none; }
