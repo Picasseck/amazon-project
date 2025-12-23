@@ -10,11 +10,40 @@
 
   <body>
     <header class="header">
-      <h1 class="sr-only">Amazon Project</h1>
+      <nav class="nav">
+        <a class="nav-logo" href="amazon.html" aria-label="Amazon clone home">
+          Amazon
+        </a>
+
+        <div class="nav-search">
+          <select class="nav-search__select" aria-label="Search category">
+            <option value="all">All</option>
+          </select>
+
+          <input
+            class="nav-search__input"
+            type="text"
+            placeholder="Search Amazon"
+            aria-label="Search"
+          />
+
+          <button class="nav-search__button" type="button" aria-label="Search">
+            🔍
+          </button>
+        </div>
+
+        <div class="nav-links">
+          <a class="nav-link" href="#">Account</a>
+          <a class="nav-link" href="#">Orders</a>
+          <a class="nav-link nav-cart" href="#">
+            Cart <span class="nav-cart__count">0</span>
+          </a>
+        </div>
+      </nav>
     </header>
 
     <main class="main">
-      <!-- Page content will go here -->
+      
     </main>
 
     <script src="./scripts/amazon.js" defer></script>
